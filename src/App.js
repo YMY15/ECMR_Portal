@@ -140,7 +140,7 @@ function App() {
         <footer className="bg-gray-800 text-white p-6 text-center">
           <div className="flex justify-center items-center space-x-2">
             <img src="/images/logo.jpg" alt="ECMR Logo" className="h-8 w-auto" />
-            <span>© 2025 ECMR</span>
+            <span>© 2025 Powered By New Smart Egypt NSE </span>
           </div>
           <p>Email: info@ecmr.com | Phone: +20 100 000 0000</p>
         </footer>
