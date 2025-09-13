@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 const heroImage =
-  "http://emra.gov.eg/images/TDI/c76f6a6a-6d78-4528-b5d4-00cb890222a8.jpg";
+  '/images/Background.jpg';
 
 const AboutPage = () => {
   const { i18n } = useTranslation();
