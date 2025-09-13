@@ -11,12 +11,12 @@ import 'swiper/css/navigation';
 
 
 
-const heroImage = '/images/project.jpg';
+const heroImage = '/images/Background.jpg';
 
 const servicesData = [
   { nameEn: 'Buy Commodity', nameAr: 'شراء الخام', link: '/services/production/Commodity', img:'https://www.mining-technology.com/wp-content/uploads/sites/19/2025/06/shutterstock_2206458177-1024x576.jpg'  },
   { nameEn: 'Apply for Production', nameAr: 'تقديم طلب إنتاج', link: '/services', img: 'https://en.amwalalghad.com/wp-content/uploads/2021/04/mining-industry-review.jpg' },
-  { nameEn: 'Projects', nameAr: 'المشاريع', link: '/projects', img: 'http://emra.gov.eg/images/TDI/63a99b28-abc2-4200-9d72-283bf0719a70.jpg' },
+  { nameEn: 'Projects', nameAr: 'المشاريع', link: '/projects', img: '/images/project.jpg' },
 ];
 
 const projectsData = [
