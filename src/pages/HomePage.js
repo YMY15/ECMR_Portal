@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 
 
 
-const heroImage = 'http://emra.gov.eg/images/TDI/c76f6a6a-6d78-4528-b5d4-00cb890222a8.jpg';
+const heroImage = '/images/project.jpg';
 
 const servicesData = [
   { nameEn: 'Buy Commodity', nameAr: 'شراء الخام', link: '/services/production/Commodity', img:'https://www.mining-technology.com/wp-content/uploads/sites/19/2025/06/shutterstock_2206458177-1024x576.jpg'  },
