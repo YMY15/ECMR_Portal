@@ -1,0 +1,28 @@
+{
+  "registration": {
+    "title": "Company Registration Form",
+    "companyName": "Company Name *",
+    "address": "Address *",
+    "email": "Email *",
+    "phone": "Phone Number *",
+    "representativeName": "Representative Name *",
+    "representativePosition": "Representative Position *",
+    "commercialReg": "Commercial Registration Number *",
+    "taxId": "Tax ID *",
+    "upload": "Upload Documents (PDF only) *",
+    "notes": "Additional Notes (Optional)",
+    "submit": "Submit Registration",
+    "backHome": "← Back to Home",
+    "success": "Registration submitted successfully!"
+ 
+}
+{
+  "signin": {
+    "title": "Sign In",
+    "email": "Email *",
+    "password": "Password *",
+    "submit": "Sign In",
+    "backHome": "← Back to Home",
+    "success": "Signed in successfully!"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "name": "ores",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { 
+        "id": 1,
+        "name": "El Sid Gold Deposit",
+        "type": "Ore Type A",
+        "mineral": "Gold",
+        "grade": "4.2 g/t",
+        "reserve": "2.5M tons",
+        "status": "Active",
+        "company": "Pharaoh Gold Inc.",
+        "discovery": "2015-06-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.125, 26.875], [33.135, 26.875], [33.135, 26.885], [33.125, 26.885], [33.125, 26.875]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { 
+        "id": 2,
+        "name": "Nile Valley Copper Zone",
+        "type": "Ore Type B", 
+        "mineral": "Copper",
+        "grade": "1.8%",
+        "reserve": "15M tons",
+        "status": "Development",
+        "company": "Eastern Desert Minerals",
+        "discovery": "2018-03-24"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.245, 26.755], [33.265, 26.755], [33.265, 26.775], [33.245, 26.775], [33.245, 26.755]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { 
+        "id": 3,
+        "name": "Red Mountain Iron Formation",
+        "type": "Ore Type C",
+        "mineral": "Iron",
+        "grade": "45% Fe",
+        "reserve": "50M tons", 
+        "status": "Exploration",
+        "company": "Desert Iron Co.",
+        "discovery": "2020-11-05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.385, 26.625], [33.405, 26.625], [33.405, 26.645], [33.385, 26.645], [33.385, 26.625]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { 
+        "id": 4,
+        "name": "Western Zinc Prospect",
+        "type": "Ore Type A",
+        "mineral": "Zinc",
+        "grade": "8.5%",
+        "reserve": "3.2M tons",
+        "status": "Active",
+        "company": "Nile Resources",
+        "discovery": "2017-08-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [32.985, 26.925], [33.005, 26.925], [33.005, 26.945], [32.985, 26.945], [32.985, 26.925]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { 
+        "id": 5,
+        "name": "Pharaoh's Silver Vein",
+        "type": "Ore Type B",
+        "mineral": "Silver",
+        "grade": "185 g/t",
+        "reserve": "1.8M tons",
+        "status": "Development",
+        "company": "Royal Silver Mines",
+        "discovery": "2019-05-30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.325, 26.825], [33.345, 26.825], [33.345, 26.845], [33.325, 26.845], [33.325, 26.825]
+        ]]
+      }
+    }
+  ]
+}

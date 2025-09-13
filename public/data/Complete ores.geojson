@@ -1,0 +1,882 @@
+{
+  "type": "FeatureCollection",
+  "name": "ores",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-001",
+        "name": "Sukari Gold Deposit",
+        "type": "Primary Gold",
+        "mineral": "Gold",
+        "grade": "4.2 g/t",
+        "reserve": "15.2M tons",
+        "status": "Producing",
+        "company": "Centamin Egypt",
+        "discovery": "1995-08-12",
+        "production": "500,000 oz/year",
+        "depth": "350m",
+        "method": "Open Pit & Underground",
+        "value": "High",
+        "symbol": "gold-star"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.125, 26.875], [33.135, 26.875], [33.135, 26.885], [33.125, 26.885], [33.125, 26.875]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-002",
+        "name": "Abu Marawat Copper-Gold",
+        "type": "Porphyry Copper",
+        "mineral": "Copper",
+        "grade": "0.8% Cu, 0.5 g/t Au",
+        "reserve": "45.7M tons",
+        "status": "Development",
+        "company": "Aton Resources",
+        "discovery": "2008-03-24",
+        "production": "Planned 2024",
+        "depth": "550m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "copper-diamond"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.245, 26.755], [33.265, 26.755], [33.265, 26.775], [33.245, 26.775], [33.245, 26.755]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-003",
+        "name": "El Gedida Iron Ore",
+        "type": "Banded Iron Formation",
+        "mineral": "Iron",
+        "grade": "58% Fe",
+        "reserve": "120M tons",
+        "status": "Producing",
+        "company": "Egyptian Iron & Steel",
+        "discovery": "1970-05-20",
+        "production": "3.5M tons/year",
+        "depth": "120m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "iron-square"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.385, 26.625], [33.405, 26.625], [33.405, 26.645], [33.385, 26.645], [33.385, 26.625]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-004",
+        "name": "Um Samiuki Zinc-Copper",
+        "type": "VMS Deposit",
+        "mineral": "Zinc",
+        "grade": "8.5% Zn, 1.2% Cu",
+        "reserve": "8.3M tons",
+        "status": "Producing",
+        "company": "Red Sea Mining Co.",
+        "discovery": "1998-11-03",
+        "production": "45,000 tons/year",
+        "depth": "420m",
+        "method": "Underground",
+        "value": "High",
+        "symbol": "zinc-triangle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [32.985, 26.925], [33.005, 26.925], [33.005, 26.945], [32.985, 26.945], [32.985, 26.925]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-005",
+        "name": "Fatiri Silver-Lead",
+        "type": "Epithermal Vein",
+        "mineral": "Silver",
+        "grade": "185 g/t Ag, 4.2% Pb",
+        "reserve": "3.8M tons",
+        "status": "Producing",
+        "company": "Silver Pharaoh Inc.",
+        "discovery": "2015-09-12",
+        "production": "2.1M oz/year",
+        "depth": "380m",
+        "method": "Underground",
+        "value": "High",
+        "symbol": "silver-circle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.325, 26.825], [33.345, 26.825], [33.345, 26.845], [33.325, 26.845], [33.325, 26.825]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-006",
+        "name": "Abu Dabbab Tantalum-Tin",
+        "type": "Granite-Related",
+        "mineral": "Tantalum",
+        "grade": "250 ppm Ta₂O₅",
+        "reserve": "12.5M tons",
+        "status": "Producing",
+        "company": "Gippsland Ltd.",
+        "discovery": "2010-06-08",
+        "production": "1,200 tons/year",
+        "depth": "65m",
+        "method": "Open Pit",
+        "value": "Very High",
+        "symbol": "tantalum-pentagon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.445, 26.785], [33.465, 26.785], [33.465, 26.805], [33.445, 26.805], [33.445, 26.785]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-007",
+        "name": "Wadi Hamama Gold-Silver",
+        "type": "Epithermal",
+        "mineral": "Gold",
+        "grade": "1.2 g/t Au, 15 g/t Ag",
+        "reserve": "22.8M tons",
+        "status": "Development",
+        "company": "Aton Resources",
+        "discovery": "2012-11-15",
+        "production": "Planned 2024",
+        "depth": "80m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "gold-silver-cross"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.175, 26.715], [33.195, 26.715], [33.195, 26.735], [33.175, 26.735], [33.175, 26.715]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-008",
+        "name": "Abu Zawal Tin-Tungsten",
+        "type": "Greisen",
+        "mineral": "Tin",
+        "grade": "0.8% Sn, 0.3% WO₃",
+        "reserve": "5.2M tons",
+        "status": "Exploration",
+        "company": "Eastern Desert Minerals",
+        "discovery": "2018-07-30",
+        "production": "Feasibility",
+        "depth": "150m",
+        "method": "Open Pit",
+        "value": "High",
+        "symbol": "tin-hexagon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.285, 26.685], [33.305, 26.685], [33.305, 26.705], [33.285, 26.705], [33.285, 26.685]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-009",
+        "name": "Gebel Elba Manganese",
+        "type": "Sedimentary",
+        "mineral": "Manganese",
+        "grade": "45% Mn",
+        "reserve": "18.3M tons",
+        "status": "Producing",
+        "company": "Egyptian Manganese Co.",
+        "discovery": "1965-02-14",
+        "production": "500,000 tons/year",
+        "depth": "25m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "manganese-octagon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.125, 25.875], [34.145, 25.875], [34.145, 25.895], [34.125, 25.895], [34.125, 25.875]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-010",
+        "name": "Bir Umm Fawakhir Gold",
+        "type": "Quartz Vein",
+        "mineral": "Gold",
+        "grade": "3.8 g/t Au",
+        "reserve": "7.6M tons",
+        "status": "Historical",
+        "company": "Pharaoh Gold Inc.",
+        "discovery": "Ancient",
+        "production": "Historical",
+        "depth": "30m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "gold-ancient"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.085, 26.915], [33.105, 26.915], [33.105, 26.935], [33.085, 26.935], [33.085, 26.915]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-011",
+        "name": "Hammamat Gold",
+        "type": "Alluvial",
+        "mineral": "Gold",
+        "grade": "1.5 g/m³",
+        "reserve": "2.8M m³",
+        "status": "Artisanal",
+        "company": "Local Miners",
+        "discovery": "Ancient",
+        "production": "Small Scale",
+        "depth": "5m",
+        "method": "Placer",
+        "value": "Low",
+        "symbol": "gold-alluvial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.225, 26.815], [33.245, 26.815], [33.245, 26.835], [33.225, 26.835], [33.225, 26.815]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-012",
+        "name": "Abu Ghalaga Ilmenite",
+        "type": "Placer",
+        "mineral": "Ilmenite",
+        "grade": "25% Heavy Minerals",
+        "reserve": "35.4M tons",
+        "status": "Development",
+        "company": "Black Sands Co.",
+        "discovery": "2005-09-18",
+        "production": "Planned 2025",
+        "depth": "15m",
+        "method": "Dredging",
+        "value": "Medium",
+        "symbol": "ilmenite-wave"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.885, 24.785], [34.905, 24.785], [34.905, 24.805], [34.885, 24.805], [34.885, 24.785]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-013",
+        "name": "Sikait Emerald",
+        "type": "Schist-Hosted",
+        "mineral": "Emerald",
+        "grade": "150 ct/ton",
+        "reserve": "1.2M tons",
+        "status": "Producing",
+        "company": "Egyptian Gems Co.",
+        "discovery": "Ancient",
+        "production": "5,000 ct/year",
+        "depth": "50m",
+        "method": "Underground",
+        "value": "Very High",
+        "symbol": "emerald-diamond"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.725, 24.645], [34.745, 24.645], [34.745, 24.665], [34.725, 24.665], [34.725, 24.645]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-014",
+        "name": "Abu Rushied Beryl",
+        "type": "Pegmatite",
+        "mineral": "Beryl",
+        "grade": "200 ct/ton",
+        "reserve": "0.8M tons",
+        "status": "Producing",
+        "company": "Desert Gems Ltd.",
+        "discovery": "1992-04-22",
+        "production": "3,000 ct/year",
+        "depth": "35m",
+        "method": "Open Pit",
+        "value": "High",
+        "symbol": "beryl-hexagon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.685, 24.585], [34.705, 24.585], [34.705, 24.605], [34.685, 24.605], [34.685, 24.585]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-015",
+        "name": "Wadi Allaqi Copper",
+        "type": "Volcanogenic",
+        "mineral": "Copper",
+        "grade": "2.1% Cu",
+        "reserve": "9.7M tons",
+        "status": "Exploration",
+        "company": "Nubian Resources",
+        "discovery": "2016-08-14",
+        "production": "Drilling",
+        "depth": "100m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "copper-circle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.555, 22.985], [33.575, 22.985], [33.575, 23.005], [33.555, 23.005], [33.555, 22.985]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-016",
+        "name": "Gebel El Zeit Phosphate",
+        "type": "Sedimentary",
+        "mineral": "Phosphate",
+        "grade": "28% P₂O₅",
+        "reserve": "85.3M tons",
+        "status": "Producing",
+        "company": "Egyptian Phosphate Co.",
+        "discovery": "1978-03-10",
+        "production": "2.8M tons/year",
+        "depth": "40m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "phosphate-square"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.125, 27.785], [33.145, 27.785], [33.145, 27.805], [33.125, 27.805], [33.125, 27.785]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-017",
+        "name": "Abu Tartur Phosphate",
+        "type": "Marine Sedimentary",
+        "mineral": "Phosphate",
+        "grade": "25% P₂O₅",
+        "reserve": "220M tons",
+        "status": "Producing",
+        "company": "Misr Phosphate Co.",
+        "discovery": "1960-11-05",
+        "production": "4.5M tons/year",
+        "depth": "60m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "phosphate-circle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [28.885, 25.485], [28.905, 25.485], [28.905, 25.505], [28.885, 25.505], [28.885, 25.485]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-018",
+        "name": "Aswan Kaolin",
+        "type": "Residual",
+        "mineral": "Kaolin",
+        "grade": "22% Al₂O₃",
+        "reserve": "15.8M tons",
+        "status": "Producing",
+        "company": "Egyptian Clays Co.",
+        "discovery": "1955-07-20",
+        "production": "300,000 tons/year",
+        "depth": "20m",
+        "method": "Open Pit",
+        "value": "Low",
+        "symbol": "kaolin-triangle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [32.885, 24.085], [32.905, 24.085], [32.905, 24.105], [32.885, 24.105], [32.885, 24.085]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-019",
+        "name": "Wadi Natrun Salt",
+        "type": "Evaporite",
+        "mineral": "Salt",
+        "grade": "95% NaCl",
+        "reserve": "50.2M tons",
+        "status": "Producing",
+        "company": "Egyptian Salt Co.",
+        "discovery": "Ancient",
+        "production": "1.2M tons/year",
+        "depth": "10m",
+        "method": "Solution Mining",
+        "value": "Low",
+        "symbol": "salt-square"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [30.485, 30.335], [30.505, 30.335], [30.505, 30.355], [30.485, 30.355], [30.485, 30.335]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-020",
+        "name": "Elba Magnesite",
+        "type": "Metamorphic",
+        "mineral": "Magnesite",
+        "grade": "42% MgO",
+        "reserve": "8.7M tons",
+        "status": "Producing",
+        "company": "Desert Magnesite Ltd.",
+        "discovery": "1985-12-08",
+        "production": "150,000 tons/year",
+        "depth": "30m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "magnesite-diamond"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.985, 22.185], [35.005, 22.185], [35.005, 22.205], [34.985, 22.205], [34.985, 22.185]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-021",
+        "name": "Nugrus Amethyst",
+        "type": "Hydrothermal",
+        "mineral": "Amethyst",
+        "grade": "300 ct/ton",
+        "reserve": "0.5M tons",
+        "status": "Producing",
+        "company": "Red Sea Gems",
+        "discovery": "1998-02-14",
+        "production": "8,000 ct/year",
+        "depth": "25m",
+        "method": "Open Pit",
+        "value": "High",
+        "symbol": "amethyst-hexagon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.585, 24.785], [34.605, 24.785], [34.605, 24.805], [34.585, 24.805], [34.585, 24.785]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-022",
+        "name": "Wadi El Gemal Peridot",
+        "type": "Ultramafic",
+        "mineral": "Peridot",
+        "grade": "180 ct/ton",
+        "reserve": "0.3M tons",
+        "status": "Producing",
+        "company": "Green Gem Co.",
+        "discovery": "Ancient",
+        "production": "4,000 ct/year",
+        "depth": "15m",
+        "method": "Open Pit",
+        "value": "Very High",
+        "symbol": "peridot-circle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [35.185, 24.655], [35.205, 24.655], [35.205, 24.675], [35.185, 24.675], [35.185, 24.655]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-023",
+        "name": "Abu Swayel Copper-Nickel",
+        "type": "Magmatic",
+        "mineral": "Copper",
+        "grade": "1.2% Cu, 0.8% Ni",
+        "reserve": "14.3M tons",
+        "status": "Exploration",
+        "company": "Metallic Resources",
+        "discovery": "2019-05-30",
+        "production": "Resource Definition",
+        "depth": "200m",
+        "method": "Underground",
+        "value": "High",
+        "symbol": "copper-nickel-star"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.885, 25.285], [33.905, 25.285], [33.905, 25.305], [33.885, 25.305], [33.885, 25.285]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-024",
+        "name": "Gebel Mokattam Limestone",
+        "type": "Sedimentary",
+        "mineral": "Limestone",
+        "grade": "98% CaCO₃",
+        "reserve": "500M tons",
+        "status": "Producing",
+        "company": "Cairo Cement Co.",
+        "discovery": "Ancient",
+        "production": "10M tons/year",
+        "depth": "50m",
+        "method": "Open Pit",
+        "value": "Low",
+        "symbol": "limestone-square"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [31.285, 30.035], [31.305, 30.035], [31.305, 30.055], [31.285, 30.055], [31.285, 30.035]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-025",
+        "name": "Wadi Araba Gypsum",
+        "type": "Evaporite",
+        "mineral": "Gypsum",
+        "grade": "92% CaSO₄·2H₂O",
+        "reserve": "28.7M tons",
+        "status": "Producing",
+        "company": "Egyptian Gypsum Co.",
+        "discovery": "1972-09-15",
+        "production": "800,000 tons/year",
+        "depth": "15m",
+        "method": "Open Pit",
+        "value": "Low",
+        "symbol": "gypsum-diamond"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [32.485, 29.335], [32.505, 29.335], [32.505, 29.355], [32.485, 29.355], [32.485, 29.335]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-026",
+        "name": "Sinai Manganese",
+        "type": "Hydrothermal",
+        "mineral": "Manganese",
+        "grade": "38% Mn",
+        "reserve": "6.4M tons",
+        "status": "Producing",
+        "company": "Sinai Minerals Ltd.",
+        "discovery": "1988-06-22",
+        "production": "200,000 tons/year",
+        "depth": "35m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "manganese-triangle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.885, 29.485], [33.905, 29.485], [33.905, 29.505], [33.885, 29.505], [33.885, 29.485]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-027",
+        "name": "Abu Zenima Bentonite",
+        "type": "Volcanic",
+        "mineral": "Bentonite",
+        "grade": "85% Montmorillonite",
+        "reserve": "4.8M tons",
+        "status": "Producing",
+        "company": "Industrial Minerals Co.",
+        "discovery": "1995-04-18",
+        "production": "100,000 tons/year",
+        "depth": "20m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "bentonite-circle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.105, 29.045], [33.125, 29.045], [33.125, 29.065], [33.105, 29.065], [33.105, 29.045]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-028",
+        "name": "Wadi Dib Gold",
+        "type": "Orogenic",
+        "mineral": "Gold",
+        "grade": "2.8 g/t Au",
+        "reserve": "5.9M tons",
+        "status": "Exploration",
+        "company": "Nubian Gold Corp.",
+        "discovery": "2017-10-08",
+        "production": "Advanced Exploration",
+        "depth": "90m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "gold-vein"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.285, 25.885], [34.305, 25.885], [34.305, 25.905], [34.285, 25.905], [34.285, 25.885]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-029",
+        "name": "Gebel Serbal Talc",
+        "type": "Metamorphic",
+        "mineral": "Talc",
+        "grade": "90% Talc",
+        "reserve": "3.2M tons",
+        "status": "Producing",
+        "company": "Sinai Talc Co.",
+        "discovery": "1990-03-12",
+        "production": "50,000 tons/year",
+        "depth": "25m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "talc-square"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.685, 28.655], [33.705, 28.655], [33.705, 28.675], [33.685, 28.675], [33.685, 28.655]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-030",
+        "name": "Wadi Ghadir Chromite",
+        "type": "Podiform",
+        "mineral": "Chromite",
+        "grade": "42% Cr₂O₃",
+        "reserve": "2.1M tons",
+        "status": "Producing",
+        "company": "Egyptian Chrome Co.",
+        "discovery": "1982-11-28",
+        "production": "30,000 tons/year",
+        "depth": "40m",
+        "method": "Open Pit",
+        "value": "High",
+        "symbol": "chromite-diamond"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [34.485, 24.885], [34.505, 24.885], [34.505, 24.905], [34.485, 24.905], [34.485, 24.885]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-031",
+        "name": "Abu Ghusun Barite",
+        "type": "Hydrothermal",
+        "mineral": "Barite",
+        "grade": "92% BaSO₄",
+        "reserve": "1.8M tons",
+        "status": "Producing",
+        "company": "Oilfield Minerals Ltd.",
+        "discovery": "2002-07-15",
+        "production": "40,000 tons/year",
+        "depth": "30m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "barite-circle"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [35.285, 23.985], [35.305, 23.985], [35.305, 24.005], [35.285, 24.005], [35.285, 23.985]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-032",
+        "name": "Wadi Kareim Iron",
+        "type": "BIF",
+        "mineral": "Iron",
+        "grade": "52% Fe",
+        "reserve": "18.9M tons",
+        "status": "Development",
+        "company": "Red Sea Iron Co.",
+        "discovery": "2006-12-03",
+        "production": "Planned 2025",
+        "depth": "45m",
+        "method": "Open Pit",
+        "value": "Medium",
+        "symbol": "iron-band"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [33.785, 26.285], [33.805, 26.285], [33.805, 26.305], [33.785, 26.305], [33.785, 26.285]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-033",
+        "name": "Gebel Elba Granite",
+        "type": "Igneous",
+        "mineral": "Granite",
+        "grade": "Dimension Stone",
+        "reserve": "100M tons",
+        "status": "Producing",
+        "company": "Egyptian Granite Co.",
+        "discovery": "Ancient",
+        "production": "500,000 m³/year",
+        "depth": "20m",
+        "method": "Quarry",
+        "value": "Medium",
+        "symbol": "granite-square"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [35.185, 22.185], [35.205, 22.185], [35.205, 22.205], [35.185, 22.205], [35.185, 22.185]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-034",
+        "name": "Wadi El Natrun Silica Sand",
+        "type": "Aeolian",
+        "mineral": "Silica Sand",
+        "grade": "99% SiO₂",
+        "reserve": "25.4M tons",
+        "status": "Producing",
+        "company": "Glass Sand Co.",
+        "discovery": "1975-08-20",
+        "production": "300,000 tons/year",
+        "depth": "8m",
+        "method": "Dredging",
+        "value": "Low",
+        "symbol": "silica-wave"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [30.385, 30.335], [30.405, 30.335], [30.405, 30.355], [30.385, 30.355], [30.385, 30.335]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ORE-035",
+        "name": "Abu Roash Clay",
+        "type": "Sedimentary",
+        "mineral": "Clay",
+        "grade": "28% Al₂O₃",
+        "reserve": "12.3M tons",
+        "status": "Producing",
+        "company": "Brick & Tile Co.",
+        "discovery": "1968-05-14",
+        "production": "200,000 tons/year",
+        "depth": "12m",
+        "method": "Open Pit",
+        "value": "Low",
+        "symbol": "clay-square"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [31.085, 30.085], [31.105, 30.085], [31.105, 30.105], [31.085, 30.105], [31.085, 30.085]
+        ]]
+      }
+    }
+  ]
+}
